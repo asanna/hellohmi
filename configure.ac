@@ -1,12 +1,11 @@
 # Autoconf -*-
 # Process this file with autoconf to produce a configure script.
-
+ 
 AC_PREREQ(2.61)
-AC_INIT(gtk-mediaplayer,1.2,andrea.sanna@mmarelli-se.com)
+AC_INIT(hellohmi,0.1,andrea.sanna@mmarelli-se.com)
 
 AM_INIT_AUTOMAKE
-#AC_CONFIG_SRCDIR([src/player.h])
-AC_CONFIG_HEADER([include/config.h])
+AC_CONFIG_HEADER([src/config.h])
 # Old configure
 AC_PREFIX_DEFAULT(/usr/)
 if test "$prefix" = "NONE"; then
